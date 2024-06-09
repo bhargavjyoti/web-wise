@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+# Web Wise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Web Wise**, an online HTML, CSS, and JavaScript editor and compiler. This project provides a convenient platform to write and test web development code, built using modern technologies such as React, TypeScript, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **HTML, CSS, and JavaScript Editor**: Write and compile code in a seamless environment.
+-   **React and TypeScript**: Ensures a robust and scalable codebase.
+-   **ShadCN UI**: Utilized for clean and responsive components.
+-   **Tailwind CSS**: Provides a highly customizable and utility-first styling approach.
+-   **Redux**: Manages the state of the application effectively.
 
-## Expanding the ESLint configuration
+## Live Site
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Visit the live site here: [Web Wise](https://web-wise.netlify.app/)
 
-- Configure the top-level `parserOptions` property like this:
+## Tech Stack
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+-   **React**: A JavaScript library for building user interfaces.
+-   **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+-   **ShadCN UI**: A component library for building user interfaces.
+-   **Tailwind CSS**: A utility-first CSS framework.
+-   **Redux**: A predictable state container for JavaScript apps.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Getting Started
+
+To get a local copy of the project up and running, follow these simple steps.
+
+### Prerequisites
+
+-   Node.js and npm installed on your local machine.
+
+### Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/web-wise.git
+    ```
